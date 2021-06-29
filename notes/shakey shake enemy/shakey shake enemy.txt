@@ -1,0 +1,13 @@
+// Script assets have changed for v2.3.0 see
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+function scr_idleEnemyState(){
+	
+	scr_setSprite(spr_enemy, 0, 0);
+	
+	xdirection = random_range(0,360);
+	ydirection = random_range (0,360);
+	speedWalk = 2;
+
+	hSpd = lengthdir_x(speedWalk, xdirection);
+	vSpd = lengthdir_y(speedWalk, ydirection);
+	scr_collisionCheck();

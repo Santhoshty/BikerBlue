@@ -1,0 +1,13 @@
+////wave, type, spawninput, delay
+
+waves = ds_list_create();
+ds_list_add(waves, [0, obj_enemy, 0, 0]);
+ds_list_add(waves, [0, obj_enemy, 0, 25]);
+ds_list_add(waves, [0, obj_enemy, 0, 25]);
+ds_list_add(waves, [0, obj_enemy, 0, 35]);
+
+//x coord
+spawn[0,0] = 5;
+
+//y coord
+spawn[0,1] = 145;
