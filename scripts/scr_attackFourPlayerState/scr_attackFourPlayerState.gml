@@ -10,5 +10,5 @@ function scr_attackFourPlayerState(){
 	
 	if(scr_animationEnd()) {state = PLAYERSTATE.FREE;}
 
-	if (dashKey) {state = PLAYERSTATE.DASH;}
+	if (keyboard_check_pressed(global.dashKey)) {state = PLAYERSTATE.DASH;}
 }

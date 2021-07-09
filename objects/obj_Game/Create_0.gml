@@ -23,5 +23,5 @@ audio_group_load(audiogroup_soundEffects);
 
 
 
-room_goto(ROOM_START);
+room_goto(Room1);
 

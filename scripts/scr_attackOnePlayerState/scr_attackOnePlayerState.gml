@@ -8,11 +8,11 @@ function scr_attackOnePlayerState(){
 		scr_createHitbox(x, y, self, spr_playerAttackOneHitbox, 2, 4, 3);	
 	}
 	
-	if(attackKey && scr_animationHitFrameRange(5,8)) {
+	if(keyboard_check_pressed(global.attackKey) && scr_animationHitFrameRange(5,8)) {
 		state = PLAYERSTATE.ATTACK_TWO;
 	}
 	
 	if(scr_animationEnd()) {state = PLAYERSTATE.FREE;}
 	
-	if (dashKey) {state = PLAYERSTATE.DASH;}
+	if (keyboard_check_pressed(global.dashKey)) {state = PLAYERSTATE.DASH;}
 }

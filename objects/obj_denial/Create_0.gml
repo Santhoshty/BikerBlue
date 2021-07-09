@@ -29,6 +29,6 @@ healthbar_y = ystart - 140;
 heavyGun = obj_heavyGun;
 
 //heavy gun
-heavygunxBuffer = 20;
+heavygunxBuffer = 30;
 heavygunyBuffer = 24;
 instance_create_layer(x + heavygunxBuffer, y + heavygunyBuffer, "Gun", heavyGun);

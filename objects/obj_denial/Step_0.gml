@@ -2,4 +2,5 @@
 // You can write your code in this editor
 event_inherited();
 
-show_debug_message(enemyScript[ENEMYSTATE.ATTACK1]);
+show_debug_message(hp);
+

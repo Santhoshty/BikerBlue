@@ -12,7 +12,7 @@ scr_setSprite(spr_gruntIdle, 3, 0);
 enemyScript[ENEMYSTATE.IDLE1] = scr_idleEnemyState;
 enemyScript[ENEMYSTATE.WANDER] = scr_wanderEnemyState;
 enemyScript[ENEMYSTATE.ATTACK1] = scr_attackEnemyState;
-enemyScript[ENEMYSTATE.KNOCKBACK] = scr_knockbackEnemyState;
+enemyScript[ENEMYSTATE.KNOCKBACK] = scr_denialKnockbackState;
 enemyScript[ENEMYSTATE.DEAD] = scr_deathEnemyState;
 
 
