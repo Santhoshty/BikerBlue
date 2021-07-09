@@ -6,8 +6,8 @@ input = instance_create_layer(0, 0, "Text", obj_input);
 
 //sprite library
 box = spr_textbox;
-frame = spr_portraitframe;
-portrait = spr_portraits;
+frame = spr_bikerBlueP;
+portrait = spr_bikerBlueP;
 namebox = spr_namebox;
 
 counter = 0;

@@ -1,12 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-
 var gwidth = global.view_width, gheight = global.gameHeight;
 
 var ds_grid = menu_pages[page], ds_height = ds_grid_height(ds_grid);
 var y_buffer = 16, x_buffer = 8; 
-var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)), start_x = gwidth/2;
-var c = c_white;
+var start_y = (gheight/2) - ((((ds_height-1)/2) * y_buffer)), start_x = (gwidth - 40)/2;
+var c = dark_blue;
 
 draw_set_font(font);
 
@@ -18,11 +17,11 @@ var ltx = start_x - x_buffer, lty, xo;
 
 var yy = 0; repeat (ds_height) {
 	lty = start_y + (yy*y_buffer);
-	c = c_white;
+	c = light_cyan;
 	xo = 0;
 	
 	if (yy == menu_option[page]) {
-		c = c_fuchsia;
+		c = pink;
 		xo = -(x_buffer/2);
 	}
 	
@@ -53,9 +52,9 @@ yy = 0; repeat(ds_height) {
 			if(current_val == 0) {left_shift = "";}
 			if(current_val == array_length_1d(ds_grid[# 4, yy]) - 1) {right_shift = "";}
 			
-			c = c_white;
+			c = light_cyan;
 			
-			if(inputting && yy == menu_option[page]) {c = c_yellow;}
+			if(inputting && yy == menu_option[page]) {c = pink;}
 			draw_text_color(rtx, rty, left_shift + current_array[current_val] + right_shift, c, c, c, c, 1);
 			
 		break;
@@ -65,11 +64,11 @@ yy = 0; repeat(ds_height) {
 			var current_val = ds_grid[# 3, yy];
 			var current_array = ds_grid[# 4, yy];
 			var circle_pos = ((current_val - current_array[0]) / (current_array[1] - current_array[0]));
-			c = c_white;
+			c = light_cyan;
 			
-			draw_line_width(rtx, rty, rtx + len, rty, 2);
-			if(inputting && yy == menu_option[page]) {c = c_yellow;}
-			draw_circle_color(rtx + (circle_pos * len), rty, 4, c, c, false);
+			draw_line_width_color(rtx, rty, rtx + len, rty, 2, c, c);
+			if(inputting && yy == menu_option[page]) {c = pink;}
+			draw_circle_color(rtx + (circle_pos * len), rty, 4, light_cyan, light_cyan, false);
 			draw_text_color(rtx + (len* 1.2), rty, string(floor(circle_pos * 100)) + "%", c, c, c, c, 1);
 			
 		break;
@@ -77,12 +76,12 @@ yy = 0; repeat(ds_height) {
 		case MENU_ELEMENT_TYPE.TOGGLE:
 			var current_val = ds_grid[# 3, yy];
 			var c1, c2;
-			c = c_white;
+			c = light_cyan;
 			
-			if(inputting && yy == menu_option[page]) {c = c_yellow;}
+			if(inputting && yy == menu_option[page]) {c = pink;}
 			
-			if (current_val == 0)	{c1 = c; c2 = c_dkgrey;}
-			else					{c1 = c_dkgray; c2 = c;}
+			if (current_val == 0)	{c1 = c; c2 = dark_blue;}
+			else					{c1 = dark_blue; c2 = c;}
 			
 			draw_text_color(rtx, rty, "ON", c1, c1, c1, c1, 1);
 			draw_text_color(rtx + 32, rty, "OFF", c2, c2, c2, c2, 1);
@@ -102,8 +101,8 @@ yy = 0; repeat(ds_height) {
 				case vk_space:	string_val = "SPACE KEY"; break;
 				default:		string_val = chr(current_val); break;
 			}
-				c = c_white;
-				if(inputting && yy == menu_option[page]) {c = c_yellow;}
+				c = light_cyan;
+				if(inputting && yy == menu_option[page]) {c = pink;}
 				draw_text_color(rtx, rty, string_val, c, c, c, c, 1);				
 		break;
 	}

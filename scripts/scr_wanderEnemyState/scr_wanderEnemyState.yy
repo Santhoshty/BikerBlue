@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "EnemyStates",
-    "path": "folders/Scripts/EnemyStates.yy",
+    "name": "GruntStates",
+    "path": "folders/Scripts/EnemyStates/GruntStates.yy",
   },
   "resourceVersion": "1.0",
   "name": "scr_wanderEnemyState",

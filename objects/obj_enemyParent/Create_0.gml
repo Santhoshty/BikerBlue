@@ -26,13 +26,13 @@ enemyAggroRadius = 300;
 
 
 //state
-state = ENEMYSTATE.IDLE;
+state = ENEMYSTATE.IDLE1;
 
 //enemy functions
-enemyScript[ENEMYSTATE.IDLE] = -1;
+enemyScript[ENEMYSTATE.IDLE1] = -1;
 enemyScript[ENEMYSTATE.WANDER] = -1;
 enemyScript[ENEMYSTATE.CHASE] = -1;
-enemyScript[ENEMYSTATE.ATTACK] = -1;
+enemyScript[ENEMYSTATE.ATTACK1] = -1;
 enemyScript[ENEMYSTATE.KNOCKBACK] = -1;
 enemyScript[ENEMYSTATE.DEAD] = -1;
 enemyScript[ENEMYSTATE.WAIT] = -1;

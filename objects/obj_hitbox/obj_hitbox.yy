@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "InvisibleObjects",
+    "path": "folders/Objects/InvisibleObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_hitbox",

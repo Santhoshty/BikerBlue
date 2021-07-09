@@ -1,12 +1,18 @@
 TO DO LIST
+	
+	-portrait for main character - done
+	-portrait for ed nial
+	
+	-dialogue system scripting
+	-do the boss fight u son of a bitch
+
+	- write some dialogue
 
 - dodge button
 	- in bullet object make it frame buffer
 
-- dialogue
-
 - title screen
-
+	-put logo on there
 -shotgun mob
 
 -boss fight
@@ -20,8 +26,6 @@ TO DO LIST
 -death
 
 - endless mode
-
--github integration
 
 
 AUXILLARY

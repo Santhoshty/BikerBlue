@@ -4,9 +4,29 @@
 global.view_width = camera_get_view_width(view_camera[0]);
 global.view_height = camera_get_view_height(view_camera[0]);
 
+//font
+font = Onyx;
+
+//variables
+inputting = false;
+input = obj_input;
+
+alarm[0] = 1 * 60;
+
+//colors
+dark_blue	=	$592B00;
+mid_blue	=	$8C5F00;
+dark_cyan	=	$BEB900;
+light_cyan	=	$E5F49F;
+pink		=	$B261FF;
+
+audio_group_load(audiogroup_default);
+audio_group_load(audiogroup_music);
+audio_group_load(audiogroup_soundEffects);
 
 
 display_set_gui_size(global.view_width, global.view_height);
+
 
 
 enum MENU_PAGE {
@@ -91,11 +111,6 @@ ds_menu_highscores = scr_createMenuPage(
 	["SLOT 3",	MENU_ELEMENT_TYPE.SCRIPTRUNNER, loadscore],
 	["SLOT 4",	MENU_ELEMENT_TYPE.SCRIPTRUNNER, loadscore],
 	["SLOT 5",	MENU_ELEMENT_TYPE.SCRIPTRUNNER, loadscore],
-	["SLOT 6",	MENU_ELEMENT_TYPE.SCRIPTRUNNER, loadscore],
-	["SLOT 7",	MENU_ELEMENT_TYPE.SCRIPTRUNNER, loadscore],
-	["SLOT 8",	MENU_ELEMENT_TYPE.SCRIPTRUNNER, loadscore],
-	["SLOT 9",	MENU_ELEMENT_TYPE.SCRIPTRUNNER, loadscore],
-	["SLOT 10", MENU_ELEMENT_TYPE.SCRIPTRUNNER, loadscore],	
 	["BACK",	MENU_ELEMENT_TYPE.PAGETRANSFER, MENU_PAGE.MAIN]
 );
 
@@ -148,9 +163,3 @@ repeat(array_len) {
 	i++;
 }
 
-//font
-font = Onyx;
-
-inputting = false;
-
-input = obj_input;

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (!global.gamePaused) {
+if (!global.gamePaused && !instance_exists(obj_textbox)) {
 	switch(state) {
 
 		case PLAYERSTATE.FREE: scr_freePlayerState(); break;

@@ -17,7 +17,11 @@ global.downKey		= vk_down;
 global.attackKey	= vk_space;
 global.dashKey		= vk_shift;
 
+audio_group_load(audiogroup_default);
 audio_group_load(audiogroup_music);
 audio_group_load(audiogroup_soundEffects);
 
+
+
 room_goto(ROOM_START);
+
