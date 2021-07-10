@@ -4,16 +4,13 @@ event_inherited();
 
 collisionMap = layer_tilemap_get_id(layer_get_id("Coll"));
 
-//Dependencies
-input = instance_create_layer(0, 0, "Player", obj_input);
-
 image_speed = 2;
 
 hSpd = 0;
 vSpd = 0;
 speedWalk = 4;
-len=0;
-inputDirection = point_direction(0, 0, input.rightKey - input.leftKey, input.downKey - input.upKey);
+len= 0;
+inputDirection = point_direction(0, 0, global.rightKey - global.leftKey, global.downKey - global.upKey);
 
 //alarm
 dashTime = 0;

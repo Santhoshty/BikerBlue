@@ -9,7 +9,6 @@ font = Onyx;
 
 //variables
 inputting = false;
-input = obj_input;
 
 alarm[0] = 1 * 60;
 

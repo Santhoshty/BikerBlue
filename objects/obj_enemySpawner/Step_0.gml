@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+show_debug_message(triggered);
 if(triggered) {
-	
+
 	//check list for enemies ready to spawn
 	for (var i = 0; i < ds_list_size(waves); i++) {
 		var next = ds_list_find_value(waves, i);

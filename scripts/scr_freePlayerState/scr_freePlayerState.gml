@@ -38,13 +38,13 @@ function scr_freePlayerState(){
 
 	scr_collisionCheck();
 	
-	if(input.leftKey) {
+	if(leftKey) {
 		sprite_index = spr_playerIdleReversed;
 		image_speed = 2;
 	}
 	
 	
-	if(input.rightKey) {
+	if(rightKey) {
 		sprite_index = spr_playerIdle;
 		image_speed = 2;
 	}
