@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+
 event_inherited();
 
 collisionMap = layer_tilemap_get_id(layer_get_id("Coll"));

@@ -3,9 +3,10 @@
 with (other) {
 	if (state == PLAYERSTATE.DASH) {global.combo += 1; exit;}
 	else {
-		other.hp -= 20;
+		hp -= 20;
 		flash = 3;
-		global.combo = 0;	
+		global.combo = 0;
+		instance_destroy(other);
 	}
 
 }
