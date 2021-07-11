@@ -5,11 +5,11 @@ function scr_attackOnePlayerState(){
 	scr_setSprite(spr_playerAttackOne, 2, 0);
 	
 	if(scr_animationHitFrame(6)) {
-		scr_createHitbox(x, y, self, spr_playerAttackOneHitbox, 2, 4, 3);	
+		scr_createHitbox(x, y, self, spr_playerAttackOneHitbox, 2, 4, 3, snd_attack1r);	
 	}
 	
 	if(keyboard_check_pressed(global.attackKey) && scr_animationHitFrameRange(5,8)) {
-		state = PLAYERSTATE.ATTACK_TWO;
+		state = PLAYERSTATE.ATTACK_TWO;		
 	}
 	
 	if(scr_animationEnd()) {state = PLAYERSTATE.FREE;}

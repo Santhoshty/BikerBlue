@@ -13,8 +13,8 @@
   "soundFile": "snd_voice1.wav",
   "duration": 0.0711,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Textbox",
+    "path": "folders/Sounds/Textbox.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_voice1",

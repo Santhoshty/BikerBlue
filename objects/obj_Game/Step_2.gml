@@ -1,5 +1,7 @@
 /// @description Pause the game
 // You can write your code in this editor
+audio_play_sound(snd_room1bgm, 5, true);
+
 
 if (keyboard_check_pressed(vk_escape)) {
 	global.gamePaused = !global.gamePaused;

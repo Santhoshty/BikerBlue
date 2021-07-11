@@ -7,6 +7,7 @@ function scr_attackEnemyState(){
 			scr_setSprite(spr_gruntAttack, 3, 0);
 			image_speed = 1;
 			if(scr_animationEnd()) {
+				audio_play_sound(snd_bullet, 5, false);
 				instance_create_layer(x + 17, y - 13, "Enemies", obj_bullet);
 				state = ENEMYSTATE.WANDER;
 			}
@@ -16,6 +17,7 @@ function scr_attackEnemyState(){
 			scr_setSprite(spr_gruntAttackBehind, 3, 0);
 			image_speed = 1;
 			if(scr_animationEnd()) {
+				audio_play_sound(snd_bullet, 5, false);
 				instance_create_layer(x - 10, y - 14, "Enemies", obj_bullet);
 				state = ENEMYSTATE.WANDER;
 			}

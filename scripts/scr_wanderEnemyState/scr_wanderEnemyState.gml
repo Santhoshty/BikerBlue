@@ -33,7 +33,7 @@ function scr_wanderEnemyState(){
 	}
 	
 	if (++aggroCheck >= aggroCheckDuration) {
-		aggroCheck = 0;
+		aggroCheck = irandom_range(0,60);
 		if (instance_exists(obj_playableChar)) && (point_distance(x, y, obj_playableChar.x, obj_playableChar.y) <= enemyAggroRadius) {
 			state = ENEMYSTATE.ATTACK1;	
 		}

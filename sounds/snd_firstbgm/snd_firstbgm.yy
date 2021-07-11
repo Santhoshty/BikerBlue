@@ -13,8 +13,8 @@
   "soundFile": "snd_firstbgm",
   "duration": 0.0,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Menu",
+    "path": "folders/Sounds/Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_firstbgm",

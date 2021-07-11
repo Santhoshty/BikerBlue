@@ -9,11 +9,11 @@ speedEnemy = 1;
 
 scr_setSprite(spr_denialTruckBase, 3, 0);
 
-enemyScript[ENEMYSTATE.IDLE1] = scr_denialIdle1State;
-enemyScript[ENEMYSTATE.WANDER] = scr_denialWanderState;
-enemyScript[ENEMYSTATE.ATTACK1] = scr_denialAttack1State;
-enemyScript[ENEMYSTATE.KNOCKBACK] = scr_knockbackEnemyState;
-enemyScript[ENEMYSTATE.DEAD] = scr_deathEnemyState;
+enemyScript[ENEMYSTATE.IDLE1]		= scr_denialIdle1State;
+enemyScript[ENEMYSTATE.WANDER]		= scr_denialWanderState;
+enemyScript[ENEMYSTATE.ATTACK1]		= scr_denialAttack1State;
+enemyScript[ENEMYSTATE.KNOCKBACK]	= scr_denialKnockbackState;
+enemyScript[ENEMYSTATE.DEAD]		= scr_deathEnemyState;
 
 xHold = 260;
 yHold = 90;

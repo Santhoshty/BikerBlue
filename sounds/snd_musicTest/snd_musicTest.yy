@@ -13,8 +13,8 @@
   "soundFile": "snd_musicTest.wav",
   "duration": 0.0711,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Menu",
+    "path": "folders/Sounds/Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_musicTest",

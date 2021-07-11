@@ -1,8 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//draw_sprite(spr_edIdle, 0,  x, y + 30);
-//healthbar
 
-draw_sprite(spr_playerHealthBarBorderUI, 0, healthbar_x, healthbar_y);
-draw_sprite_stretched(spr_playerHealthPipUI, 0, healthbar_x, healthbar_y, (hp/hp_max)*healthbar_width, healthbar_height);
+
+draw_sprite(spr_playerHealthBarBorderUI, 0, 260, healthbar_y);
+draw_sprite_stretched(spr_playerHealthPipUI, 0, 260, healthbar_y, (hp/hp_max)*healthbar_width, healthbar_height);

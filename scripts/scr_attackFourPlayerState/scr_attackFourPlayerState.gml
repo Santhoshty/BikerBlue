@@ -5,7 +5,7 @@ function scr_attackFourPlayerState(){
 	scr_setSprite(spr_playerAttackFour, 1.3, 0);
 	
 	if(scr_animationHitFrame(2)) {
-		scr_createHitbox(x, y, self, spr_playerAttackFourHitbox, 4, 4, 6);	
+		scr_createHitbox(x, y, self, spr_playerAttackFourHitbox, 4, 4, 6, snd_attack4);	
 	}
 	
 	if(scr_animationEnd()) {state = PLAYERSTATE.FREE;}

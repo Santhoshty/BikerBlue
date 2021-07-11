@@ -12,6 +12,8 @@ speedWalk = 4;
 len= 0;
 inputDirection = point_direction(0, 0, global.rightKey - global.leftKey, global.downKey - global.upKey);
 
+audio_play_sound(snd_motorcycleEngine1,1, true);
+
 //alarm
 dashTime = 0;
 dashDuration = room_speed/8;
@@ -22,8 +24,8 @@ hp = 100;
 hp_max = hp;
 healthbar_width = 50;
 healthbar_height = 3;
-healthbar_x = (180/2) - (healthbar_width/2); 
-healthbar_y = ystart - 140;
+healthbar_x = (100/2) - (healthbar_width/2); 
+healthbar_y = ystart - 130;
 
 flash = 3;
 

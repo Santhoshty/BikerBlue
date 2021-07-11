@@ -1,7 +1,10 @@
 TO DO LIST
 	
 	-portrait for main character - done
-	-portrait for ed nial
+	-portrait for ed nial - done
+	
+	-smgs (alarm for smgs)
+	-laser
 	
 	-dialogue system scripting
 	-do the boss fight u son of a bitch

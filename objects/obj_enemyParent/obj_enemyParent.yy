@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_gruntAttack",
-    "path": "sprites/spr_gruntAttack/spr_gruntAttack.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

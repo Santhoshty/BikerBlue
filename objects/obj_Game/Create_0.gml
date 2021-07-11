@@ -17,10 +17,12 @@ global.downKey		= vk_down;
 global.attackKey	= vk_space;
 global.dashKey		= vk_shift;
 
+//Sounds
 audio_group_load(audiogroup_default);
 audio_group_load(audiogroup_music);
 audio_group_load(audiogroup_soundEffects);
 
+//BGM Music
 
 
 room_goto(ROOM_START);
