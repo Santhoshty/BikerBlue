@@ -5,7 +5,7 @@ function scr_attackOnePlayerState(){
 	scr_setSprite(spr_playerAttackOne, 2, 0);
 	
 	if(scr_animationHitFrame(6)) {
-		scr_createHitbox(x, y, self, spr_playerAttackOneHitbox, 2, 4, 3, snd_attack1r);	
+		scr_createHitbox(x, y, self, spr_playerAttackOneHitbox, 2, 4, 3, snd_attack1);	
 	}
 	
 	if(keyboard_check_pressed(global.attackKey) && scr_animationHitFrameRange(5,8)) {

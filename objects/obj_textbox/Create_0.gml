@@ -2,7 +2,6 @@
 // You can write your code in this editor
 
 //object dependencies
-input = instance_create_layer(0, 0, "Text", obj_input);
 
 //sprite library
 box = spr_textbox;

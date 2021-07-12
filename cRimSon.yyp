@@ -113,7 +113,7 @@
     {"id":{"name":"spr_portraitframe","path":"sprites/spr_portraitframe/spr_portraitframe.yy",},"order":1,},
     {"id":{"name":"scr_denialIdle2State","path":"scripts/scr_denialIdle2State/scr_denialIdle2State.yy",},"order":1,},
     {"id":{"name":"todo","path":"notes/todo/todo.yy",},"order":0,},
-    {"id":{"name":"snd_attack1r","path":"sounds/snd_attack1r/snd_attack1r.yy",},"order":0,},
+    {"id":{"name":"snd_attack1","path":"sounds/snd_attack1/snd_attack1.yy",},"order":0,},
     {"id":{"name":"scr_wanderEnemyState","path":"scripts/scr_wanderEnemyState/scr_wanderEnemyState.yy",},"order":0,},
     {"id":{"name":"snd_attack4","path":"sounds/snd_attack4/snd_attack4.yy",},"order":3,},
     {"id":{"name":"spr_gruntAttackBehind","path":"sprites/spr_gruntAttackBehind/spr_gruntAttackBehind.yy",},"order":4,},

@@ -12,7 +12,7 @@ speedWalk = 4;
 len= 0;
 inputDirection = point_direction(0, 0, global.rightKey - global.leftKey, global.downKey - global.upKey);
 
-audio_play_sound(snd_motorcycleEngine1,1, true);
+//audio_play_sound(snd_motorcycleEngine1,1, true);
 
 //alarm
 dashTime = 0;
