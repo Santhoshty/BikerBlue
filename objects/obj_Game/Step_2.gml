@@ -13,6 +13,7 @@ if (keyboard_check_pressed(vk_escape)) {
 		
 		layer_set_visible("Player", false);
 		layer_set_visible("Enemies", false);
+		layer_set_visible("Gun", false);
 		
 	}
 	
@@ -23,6 +24,7 @@ if (keyboard_check_pressed(vk_escape)) {
 		
 		layer_set_visible("Player", true);
 		layer_set_visible("Enemies", true);
+		layer_set_visible("Gun", true);
 	}
 	
 }
