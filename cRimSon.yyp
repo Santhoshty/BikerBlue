@@ -260,6 +260,8 @@
     {"CopyToMask":-1,"filePath":"datafiles/aseprite/UI","resourceVersion":"1.0","name":"spr_enemyHealthbarUI.aseprite","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/aseprite/UI","resourceVersion":"1.0","name":"spr_playerHealthbarUI.aseprite","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/aseprite","resourceVersion":"1.0","name":"blk-aqu4.pal","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/aseprite","resourceVersion":"1.0","name":"Explosions.aseprite","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/aseprite","resourceVersion":"1.0","name":"Explosions.gif","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2.3.2.560",

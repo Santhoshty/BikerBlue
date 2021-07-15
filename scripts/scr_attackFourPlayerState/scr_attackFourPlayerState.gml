@@ -8,7 +8,7 @@ function scr_attackFourPlayerState(){
 		scr_createHitbox(x, y, self, spr_playerAttackFourHitbox, 4, 4, 6, snd_attack4);	
 	}
 	
-	if(scr_animationEnd()) {state = PLAYERSTATE.FREE;}
+	if(scr_animationEnd()) {scr_setSprite(spr_playerIdle, 2, 0); state = PLAYERSTATE.FREE;}
 
 	if (keyboard_check_pressed(global.dashKey)) {state = PLAYERSTATE.DASH;}
 }

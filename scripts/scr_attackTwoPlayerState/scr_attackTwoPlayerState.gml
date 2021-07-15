@@ -12,7 +12,7 @@ function scr_attackTwoPlayerState(){
 		state = PLAYERSTATE.ATTACK_THREE;
 	}
 	
-	if(scr_animationEnd()) {state = PLAYERSTATE.FREE;}
+	if(scr_animationEnd()) {scr_setSprite(spr_playerIdle, 2, 0); state = PLAYERSTATE.FREE;}
 	
 	if (keyboard_check_pressed(global.dashKey)) {state = PLAYERSTATE.DASH;}
 }

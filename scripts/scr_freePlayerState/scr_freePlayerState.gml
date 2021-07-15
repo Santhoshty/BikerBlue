@@ -2,8 +2,6 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_freePlayerState(){
 	
-	scr_setSprite(spr_playerIdle, 2, 0);
-	
 	lastRecordedhp = hp;
 	
 	leftKey = keyboard_check(global.leftKey);
@@ -38,13 +36,13 @@ function scr_freePlayerState(){
 
 	scr_collisionCheck();
 	
-	if(leftKey) {
+	if((sign(hInput) < 0)) {
 		sprite_index = spr_playerIdleReversed;
 		image_speed = 2;
 	}
 	
 	
-	if(rightKey) {
+	if(sign(hInput) > 0) {
 		sprite_index = spr_playerIdle;
 		image_speed = 2;
 	}
