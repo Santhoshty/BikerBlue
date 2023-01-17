@@ -12,13 +12,18 @@ function scr_denialIdle1State(){
 		if (++getOnScreen >= getOnScreenDuration) {
 			getOnScreen = 0;
 			timePassed = 0;
-			enemyChaseDistance = irandom_range(10, 30);
-			dir = irandom_range(-10, 10);
-			xTo = x + lengthdir_x(enemyChaseDistance, dir);
-			yTo = y + lengthdir_y (enemyChaseDistance, dir);
+			enemyChaseDistance = 65;
+			dir = 0;
+			show_debug_message(lengthdir_x(enemyChaseDistance, dir));
+			//xTo = x - lengthdir_x(enemyChaseDistance, dir);
+			//yTo = y + lengthdir_y (enemyChaseDistance, dir);
+			
+			xTo = 230;
+			yTo = 85;
 		}
 		
 		if (x < 360) {xHold = xTo; yHold = yTo; state = ENEMYSTATE.WANDER;}
+		show_debug_message(x);
 	}
 
 	//move towards new deestination

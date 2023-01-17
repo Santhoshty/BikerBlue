@@ -3,6 +3,10 @@ TO DO LIST
 	-portrait for main character - done
 	-portrait for ed nial - done
 	
+	-scene transitions
+	-endless enemy spawner
+	-save
+	
 	-smgs (alarm for smgs)
 	-laser
 	

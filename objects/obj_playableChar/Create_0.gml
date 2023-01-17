@@ -25,7 +25,7 @@ hp_max = hp;
 healthbar_width = 50;
 healthbar_height = 3;
 healthbar_x = (100/2) - (healthbar_width/2); 
-healthbar_y = ystart - 130;
+healthbar_y = 20;
 
 flash = 3;
 

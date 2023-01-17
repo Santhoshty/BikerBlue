@@ -10,6 +10,6 @@ function scr_denialKnockbackState(){
 	//knockback_speed = scr_applyFriction(knockback_speed, 0, 0.6);
 	if (knockback_speed < 1) {
 		knockback_speed = 0;
-		state = ENEMYSTATE.WANDER;
+		state = ENEMYSTATE.IDLE1;
 	}
 }

@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.26,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,10 +11,10 @@
     "path": "audiogroups/audiogroup_music",
   },
   "soundFile": "snd_room1bgm.mp3",
-  "duration": 52.589,
+  "duration": 52.584,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Background Music",
+    "path": "folders/Sounds/Background Music.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_room1bgm",

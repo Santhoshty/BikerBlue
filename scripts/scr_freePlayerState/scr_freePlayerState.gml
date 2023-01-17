@@ -36,6 +36,13 @@ function scr_freePlayerState(){
 
 	scr_collisionCheck();
 	
+	//if(place_meeting(x + hSpd, y, obj_denial)) {
+	//	while(!place_meeting(x + sign(hSpd), y, obj_denial)) {
+	//		x += sign(hSpd);
+	//	}
+	//	hSpd = 0;
+	//}
+	
 	if((sign(hInput) < 0)) {
 		sprite_index = spr_playerIdleReversed;
 		image_speed = 2;

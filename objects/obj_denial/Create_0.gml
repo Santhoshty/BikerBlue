@@ -22,8 +22,8 @@ hp = 300;
 hp_max = hp;
 healthbar_width = 50;
 healthbar_height = 3;
-healthbar_x =(healthbar_width/2) + (180/2); 
-healthbar_y = ystart - 140;
+healthbar_x = 320/2 - sprite_width/2; 
+healthbar_y = 20;
 
 //dependencies
 heavyGun = obj_heavyGun;
@@ -32,3 +32,4 @@ heavyGun = obj_heavyGun;
 heavygunxBuffer = 30;
 heavygunyBuffer = 24;
 instance_create_layer(x + heavygunxBuffer, y + heavygunyBuffer, "Gun", heavyGun);
+heavyGun.image_angle = 70;

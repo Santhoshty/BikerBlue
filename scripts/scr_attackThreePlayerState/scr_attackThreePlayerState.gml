@@ -10,7 +10,7 @@ function scr_attackThreePlayerState(){
 	
 	if(scr_animationEnd()) {state = PLAYERSTATE.ATTACK_FOUR;}
 	
-	if (keyboard_check_pressed(global.dashKey)) {state = PLAYERSTATE.DASH;}
+	if (keyboard_check_pressed(global.dashKey)) {scr_setSprite(spr_playerIdle, 2, 0); state = PLAYERSTATE.DASH;}
 	
 
 }
